@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NandFlashSimulator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NandFlashSimulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NandFlashSimulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="File" />
+			<Add directory="NandFlash" />
+			<Add directory="Bitmap" />
+			<Add directory="Driver" />
+			<Add directory="FTL_pageOP" />
+			<Add directory="FTL_strInclude" />
+			<Add directory="Hardware" />
+			<Add directory="FTL_ECC" />
+			<Add directory="FTL_GC_WL" />
+			<Add directory="FTL_DPM" />
+		</Compiler>
+		<Unit filename="Bitmap/bitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Bitmap/bitmap.h" />
+		<Unit filename="Driver/Driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Driver/Driver.h" />
+		<Unit filename="FTL_BBM/FTL_BBM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FTL_BBM/FTL_BBM.h" />
+		<Unit filename="FTL_DPM/FTL_DPM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FTL_DPM/FTL_DPM.h" />
+		<Unit filename="FTL_ECC/FTL_ECC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FTL_ECC/FTL_ECC.h" />
+		<Unit filename="FTL_GC_WL/FTL_GC_WL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FTL_GC_WL/FTL_GC_WL.h" />
+		<Unit filename="FTL_pageOP/FTL_pageOP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FTL_pageOP/FTL_pageOP.h" />
+		<Unit filename="FTL_strInclude/FILE_Load.h" />
+		<Unit filename="FTL_strInclude/FTL_Struct.h" />
+		<Unit filename="File/FileAccess.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="File/FileAccess.h" />
+		<Unit filename="File/File_lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="File/File_lib.h" />
+		<Unit filename="File/MyFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="File/MyFile.h" />
+		<Unit filename="FunctionTest/TestFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hardware/Hardware.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hardware/Hardware.h" />
+		<Unit filename="NandFlash/NandFlash_sim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NandFlash/NandFlash_sim.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

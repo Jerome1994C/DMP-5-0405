@@ -1,0 +1,576 @@
+# depslib dependency file v1.0
+1481513082 source:/home/jerome/Desktop/NandFlashSimulator/Bitmap/bitmap.c
+	"bitmap.h"
+
+1481513082 /home/jerome/Desktop/NandFlashSimulator/Bitmap/bitmap.h
+	<stdint.h>
+
+1490944537 source:/home/jerome/Desktop/NandFlashSimulator/Driver/Driver.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"NandFlash_sim.h"
+
+1490944513 /home/jerome/Desktop/NandFlashSimulator/Driver/Driver.h
+	"NandFlash_sim.h"
+
+1481773380 /home/jerome/Desktop/NandFlashSimulator/NandFlash/NandFlash_sim.h
+	<stdint.h>
+	"MyFile.h"
+
+1481513082 /home/jerome/Desktop/NandFlashSimulator/File/MyFile.h
+	"FileAccess.h"
+
+1481513082 /home/jerome/Desktop/NandFlashSimulator/File/FileAccess.h
+	<stdint.h>
+
+1481513082 source:/home/jerome/Desktop/NandFlashSimulator/File/FileAccess.c
+	<stdint.h>
+	<string.h>
+	<assert.h>
+	"FileAccess.h"
+
+1481513082 source:/home/jerome/Desktop/NandFlashSimulator/File/File_lib.c
+	<stdio.h>
+	<stdlib.h>
+	"File_lib.h"
+
+1481513082 /home/jerome/Desktop/NandFlashSimulator/File/File_lib.h
+
+1481513082 source:/home/jerome/Desktop/NandFlashSimulator/File/MyFile.c
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	"MyFile.h"
+	"File_lib.h"
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1490944581 source:/home/jerome/Desktop/NandFlashSimulator/FunctionTest/TestFile.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"MyFile.h"
+	"Driver.h"
+	"File_lib.h"
+	"FileAccess.h"
+	"NandFlash_sim.h"
+
+1481513082 source:/home/jerome/Desktop/NandFlashSimulator/Hardware/Hardware.c
+
+1490927979 source:/home/jerome/Desktop/NandFlashSimulator/NandFlash/NandFlash_sim.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdbool.h>
+	"File_lib.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1481747826 /home/jerome/Desktop/NandFlashSimulator/Hardware/Hardware.h
+	<stdint.h>
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator/Bitmap/bitmap.c
+	"bitmap.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator/Bitmap/bitmap.h
+	<stdint.h>
+
+1491038692 source:/home/jerome/Desktop/Git/NandFlashSimulator/Driver/Driver.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+
+1491029592 /home/jerome/Desktop/Git/NandFlashSimulator/Driver/Driver.h
+	"Hardware.h"
+
+1491035714 /home/jerome/Desktop/Git/NandFlashSimulator/NandFlash/NandFlash_sim.h
+	<stdint.h>
+	"MyFile.h"
+	"Hardware.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator/File/MyFile.h
+	"FileAccess.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator/File/FileAccess.h
+	<stdint.h>
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator/File/FileAccess.c
+	<stdint.h>
+	<string.h>
+	<assert.h>
+	"FileAccess.h"
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator/File/File_lib.c
+	<stdio.h>
+	<stdlib.h>
+	"File_lib.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator/File/File_lib.h
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator/File/MyFile.c
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	"MyFile.h"
+	"File_lib.h"
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1491039073 source:/home/jerome/Desktop/Git/NandFlashSimulator/FunctionTest/TestFile.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	"MyFile.h"
+	"Driver.h"
+	"File_lib.h"
+	"FileAccess.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1491016486 source:/home/jerome/Desktop/Git/NandFlashSimulator/Hardware/Hardware.c
+
+1491039173 source:/home/jerome/Desktop/Git/NandFlashSimulator/NandFlash/NandFlash_sim.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdbool.h>
+	"File_lib.h"
+	"Hardware.h"
+	"FILE_Load.h"
+	"NandFlash_sim.h"
+
+1491035719 /home/jerome/Desktop/Git/NandFlashSimulator/Hardware/Hardware.h
+	<stdint.h>
+
+1491039298 source:/home/jerome/Desktop/Git/NandFlashSimulator/FTL_pageOP/FTL_pageOP.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+	"FTL_ECC.h"
+	"FTL_pageOP.h"
+	"FTL_Struct.h"
+
+1491034248 /home/jerome/Desktop/Git/NandFlashSimulator/FTL_strInclude/FTL_Struct.h
+
+1491039008 /home/jerome/Desktop/Git/NandFlashSimulator/FTL_strInclude/FILE_Load.h
+	<stdint.h>
+
+1491038833 source:/home/jerome/Desktop/Git/NandFlashSimulator/FTL_BBM/FTL_BBM.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"FTL_BBM.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1491032679 /home/jerome/Desktop/Git/NandFlashSimulator/FTL_BBM/FTL_BBM.h
+	<stdint.h>
+	"Hardware.h"
+
+1491037598 source:/home/jerome/Desktop/Git/NandFlashSimulator/FTL_ECC/FTL_ECC.c
+	"FTL_ECC.h"
+
+1491037574 /home/jerome/Desktop/Git/NandFlashSimulator/FTL_ECC/FTL_ECC.h
+
+1491039383 /home/jerome/Desktop/Git/NandFlashSimulator/FTL_pageOP/FTL_pageOP.h
+	"Driver.h"
+	"FTL_Struct.h"
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/Bitmap/bitmap.c
+	"bitmap.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/Bitmap/bitmap.h
+	<stdint.h>
+
+1491038692 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/Driver/Driver.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+
+1491029592 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/Driver/Driver.h
+	"Hardware.h"
+
+1491035719 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/Hardware/Hardware.h
+	<stdint.h>
+
+1491038833 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_BBM/FTL_BBM.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"FTL_BBM.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1491032679 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_BBM/FTL_BBM.h
+	<stdint.h>
+	"Hardware.h"
+
+1491035714 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/NandFlash/NandFlash_sim.h
+	<stdint.h>
+	"MyFile.h"
+	"Hardware.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/File/MyFile.h
+	"FileAccess.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/File/FileAccess.h
+	<stdint.h>
+
+1491037598 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_ECC/FTL_ECC.c
+	"FTL_ECC.h"
+
+1491037574 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_ECC/FTL_ECC.h
+
+1491302966 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_pageOP/FTL_pageOP.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+	"FTL_ECC.h"
+	"FTL_pageOP.h"
+	"FTL_Struct.h"
+
+1491303029 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_pageOP/FTL_pageOP.h
+	"Driver.h"
+	"FTL_Struct.h"
+
+1491297438 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_strInclude/FTL_Struct.h
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/File/FileAccess.c
+	<stdint.h>
+	<string.h>
+	<assert.h>
+	"FileAccess.h"
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/File/File_lib.c
+	<stdio.h>
+	<stdlib.h>
+	"File_lib.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/File/File_lib.h
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/File/MyFile.c
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	"MyFile.h"
+	"File_lib.h"
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1491039073 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FunctionTest/TestFile.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	"MyFile.h"
+	"Driver.h"
+	"File_lib.h"
+	"FileAccess.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1491016486 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/Hardware/Hardware.c
+
+1491039173 source:/home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/NandFlash/NandFlash_sim.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdbool.h>
+	"File_lib.h"
+	"Hardware.h"
+	"FILE_Load.h"
+	"NandFlash_sim.h"
+
+1491039008 /home/jerome/Desktop/Git/NandFlashSimulator(0401ok)/FTL_strInclude/FILE_Load.h
+	<stdint.h>
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/Bitmap/bitmap.c
+	"bitmap.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/Bitmap/bitmap.h
+	<stdint.h>
+
+1491038692 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/Driver/Driver.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+
+1491029592 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/Driver/Driver.h
+	"Hardware.h"
+
+1491382333 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/Hardware/Hardware.h
+	<stdint.h>
+
+1491038833 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_BBM/FTL_BBM.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"FTL_BBM.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1491303747 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_BBM/FTL_BBM.h
+	<stdint.h>
+	"Hardware.h"
+
+1491035714 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/NandFlash/NandFlash_sim.h
+	<stdint.h>
+	"MyFile.h"
+	"Hardware.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/File/MyFile.h
+	"FileAccess.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/File/FileAccess.h
+	<stdint.h>
+
+1491037598 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_ECC/FTL_ECC.c
+	"FTL_ECC.h"
+
+1491037574 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_ECC/FTL_ECC.h
+
+1491302966 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_pageOP/FTL_pageOP.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+	"FTL_ECC.h"
+	"FTL_pageOP.h"
+	"FTL_Struct.h"
+
+1491303029 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_pageOP/FTL_pageOP.h
+	"Driver.h"
+	"FTL_Struct.h"
+
+1491384174 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_strInclude/FTL_Struct.h
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/File/FileAccess.c
+	<stdint.h>
+	<string.h>
+	<assert.h>
+	"FileAccess.h"
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/File/File_lib.c
+	<stdio.h>
+	<stdlib.h>
+	"File_lib.h"
+
+1481513082 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/File/File_lib.h
+
+1481513082 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/File/MyFile.c
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	"MyFile.h"
+	"File_lib.h"
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1491383969 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FunctionTest/TestFile.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	"MyFile.h"
+	"Driver.h"
+	"File_lib.h"
+	"Hardware.h"
+	"FileAccess.h"
+	"FTL_Struct.h"
+	"NandFlash_sim.h"
+
+1491016486 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/Hardware/Hardware.c
+
+1491039173 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/NandFlash/NandFlash_sim.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdbool.h>
+	"File_lib.h"
+	"Hardware.h"
+	"FILE_Load.h"
+	"NandFlash_sim.h"
+
+1491039008 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_strInclude/FILE_Load.h
+	<stdint.h>
+
+1491384021 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_GC_WL/FTL_GC_WL.c
+	<stdint.h>
+	"FTL_GC_WL.h"
+	"FTL_Struct.h"
+
+1491383153 source:/home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_DPM/FTL_DPM.c
+
+1491384155 /home/jerome/Desktop/Git/NandFlashSimulator(0404ok)/FTL_GC_WL/FTL_GC_WL.h
+	<stdint.h>
+	"Hardware.h"
+	"FTL_pageOP.h"
+	"FTL_Struct.h"
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/Bitmap/bitmap.c
+	"bitmap.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/Bitmap/bitmap.h
+	<stdint.h>
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/Driver/Driver.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/Driver/Driver.h
+	"Hardware.h"
+
+1491393143 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/Hardware/Hardware.h
+	<stdint.h>
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_BBM/FTL_BBM.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"FTL_BBM.h"
+	"Hardware.h"
+	"NandFlash_sim.h"
+
+1491392788 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_BBM/FTL_BBM.h
+	<stdint.h>
+	"Hardware.h"
+
+1491035714 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/NandFlash/NandFlash_sim.h
+	<stdint.h>
+	"MyFile.h"
+	"Hardware.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/File/MyFile.h
+	"FileAccess.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/File/FileAccess.h
+	<stdint.h>
+
+1491392967 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_DPM/FTL_DPM.c
+	<stdint.h>
+	<stdlib.h>
+	"Hardware.h"
+	"FTL_DPM.h"
+	"FTL_GC_WL.h"
+
+1491393081 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_DPM/FTL_DPM.h
+	"FTL_Struct.h"
+	"FTL_pageOP.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_strInclude/FTL_Struct.h
+	<stdint.h>
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_pageOP/FTL_pageOP.h
+	"Driver.h"
+	"FTL_Struct.h"
+
+1491393067 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_GC_WL/FTL_GC_WL.h
+	<stdint.h>
+	"Hardware.h"
+	"FTL_pageOP.h"
+	"FTL_Struct.h"
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_ECC/FTL_ECC.c
+	"FTL_ECC.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_ECC/FTL_ECC.h
+
+1491393174 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_GC_WL/FTL_GC_WL.c
+	<stdint.h>
+	"Hardware.h"
+	"FTL_GC_WL.h"
+	"FTL_Struct.h"
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_pageOP/FTL_pageOP.c
+	<string.h>
+	<stdio.h>
+	"Driver.h"
+	"Hardware.h"
+	"FTL_ECC.h"
+	"FTL_pageOP.h"
+	"FTL_Struct.h"
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/File/FileAccess.c
+	<stdint.h>
+	<string.h>
+	<assert.h>
+	"FileAccess.h"
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/File/File_lib.c
+	<stdio.h>
+	<stdlib.h>
+	"File_lib.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/File/File_lib.h
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/File/MyFile.c
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	"MyFile.h"
+	"File_lib.h"
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1491393195 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FunctionTest/TestFile.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	"MyFile.h"
+	"Driver.h"
+	"File_lib.h"
+	"Hardware.h"
+	"FileAccess.h"
+	"FTL_Struct.h"
+	"NandFlash_sim.h"
+
+1491392597 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/Hardware/Hardware.c
+
+1491392598 source:/home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/NandFlash/NandFlash_sim.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdbool.h>
+	"File_lib.h"
+	"Hardware.h"
+	"FILE_Load.h"
+	"NandFlash_sim.h"
+
+1491392597 /home/jerome/Desktop/Git/NandFlashSimulator(0405ok)/FTL_strInclude/FILE_Load.h
+	<stdint.h>
+

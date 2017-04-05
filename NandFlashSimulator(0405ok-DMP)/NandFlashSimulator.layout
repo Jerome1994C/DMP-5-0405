@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Bitmap/bitmap.c" open="0" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Bitmap/bitmap.h" open="0" top="0" tabpos="14">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Driver/Driver.c" open="0" top="0" tabpos="12">
+		<Cursor position="720" topLine="15" />
+	</File>
+	<File name="Driver/Driver.h" open="0" top="0" tabpos="15">
+		<Cursor position="584" topLine="0" />
+	</File>
+	<File name="FTL_BBM/FTL_BBM.c" open="0" top="0" tabpos="8">
+		<Cursor position="840" topLine="11" />
+	</File>
+	<File name="FTL_BBM/FTL_BBM.h" open="0" top="0" tabpos="7">
+		<Cursor position="449" topLine="6" />
+	</File>
+	<File name="FTL_DPM/FTL_DPM.c" open="1" top="1" tabpos="0">
+		<Cursor position="1151" topLine="112" />
+	</File>
+	<File name="FTL_DPM/FTL_DPM.h" open="0" top="0" tabpos="2">
+		<Cursor position="425" topLine="0" />
+	</File>
+	<File name="FTL_ECC/FTL_ECC.c" open="0" top="0" tabpos="16">
+		<Cursor position="1210" topLine="17" />
+	</File>
+	<File name="FTL_ECC/FTL_ECC.h" open="0" top="0" tabpos="17">
+		<Cursor position="509" topLine="0" />
+	</File>
+	<File name="FTL_GC_WL/FTL_GC_WL.c" open="0" top="0" tabpos="5">
+		<Cursor position="393" topLine="0" />
+	</File>
+	<File name="FTL_GC_WL/FTL_GC_WL.h" open="0" top="0" tabpos="3">
+		<Cursor position="556" topLine="5" />
+	</File>
+	<File name="FTL_pageOP/FTL_pageOP.c" open="0" top="0" tabpos="10">
+		<Cursor position="3671" topLine="138" />
+	</File>
+	<File name="FTL_pageOP/FTL_pageOP.h" open="0" top="0" tabpos="6">
+		<Cursor position="881" topLine="9" />
+	</File>
+	<File name="FTL_strInclude/FILE_Load.h" open="0" top="0" tabpos="18">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="FTL_strInclude/FTL_Struct.h" open="0" top="0" tabpos="4">
+		<Cursor position="675" topLine="0" />
+	</File>
+	<File name="File/FileAccess.c" open="0" top="0" tabpos="19">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="File/FileAccess.h" open="0" top="0" tabpos="20">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="File/File_lib.c" open="0" top="0" tabpos="21">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="File/File_lib.h" open="0" top="0" tabpos="22">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="File/MyFile.c" open="0" top="0" tabpos="23">
+		<Cursor position="1976" topLine="64" />
+	</File>
+	<File name="File/MyFile.h" open="0" top="0" tabpos="24">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="FunctionTest/TestFile.c" open="0" top="0" tabpos="11">
+		<Cursor position="2943" topLine="121" />
+	</File>
+	<File name="Hardware/Hardware.c" open="0" top="0" tabpos="25">
+		<Cursor position="209" topLine="0" />
+	</File>
+	<File name="Hardware/Hardware.h" open="0" top="0" tabpos="9">
+		<Cursor position="7084" topLine="100" />
+	</File>
+	<File name="NandFlash/NandFlash_sim.c" open="0" top="0" tabpos="26">
+		<Cursor position="11195" topLine="420" />
+	</File>
+	<File name="NandFlash/NandFlash_sim.h" open="0" top="0" tabpos="27">
+		<Cursor position="1654" topLine="26" />
+	</File>
+</CodeBlocks_layout_file>
